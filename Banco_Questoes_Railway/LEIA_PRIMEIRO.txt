@@ -1,0 +1,39 @@
+BANCO DE QUESTOES 1.3.1 - RAILWAY PRIVADO
+
+Este pacote foi preparado para hospedar seu banco com uma conta de administrador.
+Comece por GUIA_RAILWAY.md. O README.md resume a configuracao.
+
+1. Extraia o ZIP e envie a pasta Banco_Questoes_Railway ao seu repositorio GitHub.
+2. Conecte o repositorio ao Railway e defina Root Directory /Banco_Questoes_Railway.
+3. Conecte um volume ao servico, com Mount Path /data.
+4. Configure nas Variables:
+   ADMIN_USER: seu usuario, de 3 a 80 caracteres.
+   ADMIN_PASSWORD: sua senha, com pelo menos 12 caracteres.
+   SECRET_KEY: texto aleatorio com pelo menos 32 caracteres.
+   DATA_DIR: /data/acervo
+   PORT: 8080
+5. Defina Healthcheck Path /health e mantenha uma replica.
+6. Aplique Deploy, gere o dominio na porta 8080 e entre pelo endereco HTTPS.
+
+O Dockerfile instala as dependencias e inicia Gunicorn. Nao use comandos de
+abertura da versao local no Railway. Nao coloque senha, chave, banco ou backup
+no GitHub. As credenciais sao escolhidas por voce no painel da hospedagem.
+
+CLAUDE
+Depois de entrar: Classificacao > Configurar Claude / API.
+Para manter a chave entre reinicializacoes, configure BANCO_API_KEY nas Variables.
+Modelo, formato e URL base podem ser definidos pelo aplicativo. A classificacao
+por regras tambem funciona. O modelo de IA local nao acompanha este pacote.
+
+SEU ACERVO
+Para comecar vazio, envie PDFs na tela Provas e importacao.
+Para preservar seu acervo e historico, crie um backup na versao local e siga
+a secao 7 do GUIA_RAILWAY.md. Nao precisa reimportar provas ja restauradas.
+Faca backups regularmente em Dados e backup > Criar e baixar backup.
+
+MANUAL.md explica o estudo, os filtros, as importacoes e os simulados.
+GUIA_API_CLAUDE.md explica a classificacao pela API.
+RELATORIO_RAILWAY.txt registra os 91 testes locais e os limites da validacao.
+
+Esta entrega tem uma conta privada, sem cadastro publico ou historicos separados
+por estudante. A publicacao na sua conta Railway ainda precisa ser realizada.

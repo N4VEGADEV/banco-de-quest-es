@@ -1,0 +1,163 @@
+{
+  "Língua Portuguesa": [
+    "Interpretação de textos",
+    "Tipologia textual",
+    "Semântica / Denotação e conotação",
+    "Semântica / Sinônimos e antônimos",
+    "Semântica / Homônimos e parônimos",
+    "Semântica / Hiperônimos e hipônimos",
+    "Semântica / Figuras de linguagem / Metáfora",
+    "Semântica / Figuras de linguagem / Comparação",
+    "Semântica / Figuras de linguagem / Personificação",
+    "Semântica / Figuras de linguagem / Metonímia",
+    "Semântica / Figuras de linguagem / Antítese e paradoxo",
+    "Semântica / Figuras de linguagem / Hipérbole e eufemismo",
+    "Semântica / Figuras de linguagem / Ironia",
+    "Semântica / Figuras de linguagem / Sinestesia",
+    "Semântica / Figuras de linguagem / Catacrese",
+    "Figuras de sintaxe",
+    "Coesão / Referenciação",
+    "Coesão / Conectivos",
+    "Sintaxe / Sujeito e predicado",
+    "Sintaxe / Complementos e adjuntos",
+    "Concordância verbal",
+    "Concordância nominal",
+    "Regência e crase",
+    "Colocação pronominal",
+    "Pontuação",
+    "Vozes verbais",
+    "Tempos e modos verbais",
+    "Classes de palavras",
+    "Ortografia e acentuação",
+    "Redação oficial",
+    "Variação linguística",
+    "Sintaxe / Orações e períodos",
+    "Reescrita de frases"
+  ],
+  "Raciocínio Lógico-Matemático": [
+    "Lógica proposicional / Conectivos e tabelas-verdade",
+    "Lógica proposicional / Equivalências e negações",
+    "Lógica de argumentação / Diagramas",
+    "Conjuntos",
+    "Razão e proporção",
+    "Regra de três",
+    "Porcentagem",
+    "Análise combinatória",
+    "Probabilidade",
+    "Sequências e progressões / PA",
+    "Sequências e progressões / PG",
+    "Sequências e progressões / Padrões lógicos",
+    "Matemática financeira",
+    "Estatística",
+    "Geometria",
+    "Equações",
+    "Funções",
+    "Grandezas e medidas",
+    "Aritmética",
+    "Matrizes"
+  ],
+  "Informática": [
+    "Hardware",
+    "Windows / Arquivos e pastas",
+    "Windows / Atalhos",
+    "Linux",
+    "Editores de texto / Word",
+    "Editores de texto / Writer",
+    "Planilhas / Excel",
+    "Planilhas / Calc",
+    "Apresentações / PowerPoint",
+    "Redes / Equipamentos e protocolos",
+    "Internet e navegadores",
+    "Correio eletrônico",
+    "Segurança da informação / Malwares",
+    "Segurança da informação / Engenharia social",
+    "Segurança da informação / Criptografia",
+    "Segurança da informação / Backup",
+    "Segurança da informação / Princípios",
+    "Windows",
+    "Ferramentas de colaboração",
+    "Proteção de dados / LGPD",
+    "Análise de dados",
+    "Redes sociais",
+    "Bancos de dados",
+    "Programação e desenvolvimento",
+    "Gestão de TI",
+    "Computação em nuvem"
+  ],
+  "Conhecimentos do IBGE": [
+    "Código de Ética do IBGE",
+    "Domicílio e morador",
+    "Coleta e qualidade dos dados",
+    "Sigilo estatístico",
+    "Organização do IBGE"
+  ],
+  "Geografia": [
+    "Cartografia",
+    "Geografia do Brasil",
+    "População",
+    "Geografia urbana",
+    "Geografia econômica",
+    "Meio ambiente"
+  ],
+  "Língua Inglesa": [
+    "Interpretação de textos",
+    "Vocabulário",
+    "Gramática"
+  ],
+  "Conhecimentos Bancários": [
+    "Sistema financeiro",
+    "Produtos e serviços bancários",
+    "Atendimento e vendas",
+    "Legislação bancária",
+    "Governança e responsabilidade socioambiental"
+  ],
+  "Outras disciplinas": [],
+  "Legislação e Administração Pública": [
+    "Direitos humanos e inclusão",
+    "Legislação educacional",
+    "Princípios da Administração Pública",
+    "Ética no serviço público",
+    "Regime dos servidores públicos",
+    "Direito constitucional",
+    "Direito administrativo",
+    "Orçamento público"
+  ],
+  "História": [
+    "História do Brasil",
+    "Cultura e patrimônio",
+    "História geral"
+  ],
+  "Filosofia": [
+    "História da filosofia",
+    "Ética e filosofia política"
+  ],
+  "Química": [
+    "Química orgânica",
+    "Estrutura atômica e ligações",
+    "Soluções e estequiometria",
+    "Química analítica",
+    "Química inorgânica",
+    "Segurança em laboratório"
+  ],
+  "Biologia": [
+    "Bioquímica",
+    "Microbiologia",
+    "Biologia celular e genética"
+  ],
+  "Segurança do Trabalho": [
+    "Normas regulamentadoras",
+    "Riscos ocupacionais",
+    "Equipamentos de proteção",
+    "Prevenção de acidentes",
+    "Ergonomia e saúde ocupacional"
+  ],
+  "Administração Geral": [
+    "Teorias e funções da administração",
+    "Estrutura organizacional",
+    "Gestão de pessoas",
+    "Comportamento organizacional",
+    "Comunicação organizacional",
+    "Qualidade e atendimento",
+    "Arquivologia"
+  ]
+}

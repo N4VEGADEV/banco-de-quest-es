@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Entrar · Banco de Questões</title><link rel="stylesheet" href="/style.css"></head>
+<body class="login-page"><main class="login-card panel"><span class="local-badge">ACESSO PRIVADO</span><h1>Banco de Questões</h1><p class="muted">Entre com sua conta de administrador para acessar seu acervo e seu progresso.</p>
+{% if erro %}<div class="notice error" role="alert">{{ erro }}</div>{% endif %}
+<form method="post" action="/login" class="form-stack" id="login-form">
+<input type="hidden" name="csrf" value="{{ csrf }}">
+<label>Usuário<input name="usuario" autocomplete="username" maxlength="80" required autofocus></label>
+<label>Senha<input name="senha" type="password" autocomplete="current-password" maxlength="200" required></label>
+<button type="submit" class="primary">Entrar</button></form><p class="subtle">Acesso configurado pelo proprietário do aplicativo.</p></main><script src="/login.js" defer></script></body></html>

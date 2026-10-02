@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Banco de Questões · Privado</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#painel"><span class="brand-icon">q.</span><span>Banco de<br><strong>Questões</strong></span></a>
+  <div class="workspace-label"><span class="dot"></span> Seu espaço privado</div>
+  <nav aria-label="Navegação principal">
+    <button data-view="painel"><span>◫</span> Visão geral</button>
+    <button data-view="questoes"><span>▤</span> Questões</button>
+    <button data-view="cadernos"><span>▣</span> Cadernos</button>
+    <button data-view="simulados"><span>◷</span> Simulados</button>
+    <button data-view="historico"><span>↺</span> Histórico</button>
+    <div class="nav-label">ORGANIZAR O ACERVO</div>
+    <button data-view="importar"><span>⇧</span> Provas e importação</button>
+    <button data-view="ia"><span>✦</span> Classificação</button>
+    <button data-view="config"><span>⚙</span> Dados e backup</button>
+  </nav>
+  <div class="sidebar-bottom"><span class="local-badge">PRIVADO</span><p>Seu acervo. Seu progresso.<br>Salvos na hospedagem.</p><small id="version">Versão 1.3.1</small></div>
+</aside>
+<main class="main"><header class="topbar"><span id="breadcrumb">Meu espaço / Visão geral</span><div class="actions"><span class="connection" id="account-name">Administrador</span><button data-action="logout" class="small">Sair</button></div></header><div id="content" aria-live="polite"><div class="loading">Abrindo seu banco…</div></div></main>
+<dialog id="modal"><div id="modal-content"></div></dialog>
+<div id="toast" role="status" class="toast hidden"></div>
+<datalist id="disciplinas"></datalist>
+<script src="/app.js" defer></script>
+</body></html>

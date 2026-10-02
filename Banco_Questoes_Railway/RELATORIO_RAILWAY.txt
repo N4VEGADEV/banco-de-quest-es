@@ -1,0 +1,31 @@
+BANCO DE QUESTOES 1.3.1 - RAILWAY PRIVADO
+Validacao: 02/10/2026
+
+91 testes automatizados passaram: 73 regressões anteriores + 18 novos testes.
+Comando: python -m unittest testes testes_ia testes_v12 testes_api testes_online
+
+Verificados:
+- Inicio recusado sem usuario, senha, chave secreta ou volume no Railway.
+- Banco, PDFs, exportacao, historico e backups inacessiveis sem login.
+- Login por senha comparada por hash, cookie HTTPS/HttpOnly/SameSite.
+- Tokens por sessao, rejeicao de origem externa e limite de tentativas.
+- Logout revoga inclusive a reutilizacao do cookie anterior.
+- Healthcheck publico e sem dados; host Railway e hostname de healthcheck.
+- Resposta, anotações, favoritos, PDF, exportação e backup pelas rotas adaptadas.
+- Upload de PDF autenticado, objetos JSON invalidos recusados.
+- Banco preservado ao reiniciar; chave API de Variable fora do disco/resposta.
+- Restauracao no inicio valida o backup e preserva dados anteriores no volume.
+- Servidor Gunicorn real: PORT, healthcheck, login e escrita autenticada por HTTP.
+- Sintaxe Python e JavaScript; formato dos arquivos de publicacao.
+
+Nao foi feita publicacao na conta Railway do usuario nem alteracao do GitHub.
+Nao houve chamada paga ou uso de chave real de IA. Nao foi executada a imagem
+Docker nem um teste visual em navegador real. O servidor foi testado em Linux
+com Python 3.12, Flask 3.1.3, Werkzeug 3.1.9 e Gunicorn 26.2.0.
+
+Escopo: uma conta privada de administrador. Nao ha cadastro publico, estudantes
+com historico separado ou recuperacao por email. As variaveis de login e API
+sao escolhidas pelo proprietario no painel Railway.
+
+GUIA_RAILWAY.md explica upload ao GitHub, Root Directory, volume /data,
+Variables, publicacao, endereco HTTPS e migracao por backup.
