@@ -118,7 +118,7 @@ def criar_app(ambiente=None):
     def cabecalhos(resposta):
         resposta.headers['Cache-Control']='no-store'
         resposta.headers['X-Content-Type-Options']='nosniff'
-        resposta.headers['Referrer-Policy']='no-referrer'
+        resposta.headers['Referrer-Policy']='same-origin'
         resposta.headers['X-Frame-Options']='SAMEORIGIN'
         resposta.headers['Content-Security-Policy']="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'self'; form-action 'self'"
         if app.config['SESSION_COOKIE_SECURE']:resposta.headers['Strict-Transport-Security']='max-age=31536000'
